@@ -13,4 +13,7 @@ class Doctor
       appointment.patient
     end
   end
+  def appointments
+    @appointments
+  end
 end
