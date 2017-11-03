@@ -14,6 +14,6 @@ class Doctor
     end
   end
   def appointments
-    "Moj Bog!"
+    @appointments
   end
 end
