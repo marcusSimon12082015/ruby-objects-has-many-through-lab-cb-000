@@ -14,6 +14,6 @@ class Doctor
     end
   end
   def appointments
-    @appointments
+    #@appointments
   end
 end
