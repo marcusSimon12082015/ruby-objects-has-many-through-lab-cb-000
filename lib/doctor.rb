@@ -14,6 +14,6 @@ class Doctor
     end
   end
   def appointments
-    @appointments.inspect
+    @appointments.inspect.to_s
   end
 end
