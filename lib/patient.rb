@@ -8,7 +8,7 @@ class Patient
     @appointments << appointment
     appointment.patient = self
   end
-  def doctor
+  def doctors
     @appointments.collect do |app|
       app.doctor
     end
