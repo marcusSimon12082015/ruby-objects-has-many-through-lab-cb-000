@@ -14,6 +14,6 @@ class Doctor
     end
   end
   def appointments
-    @appointments.inspect.to_s
+    "Moj Bog!"
   end
 end
